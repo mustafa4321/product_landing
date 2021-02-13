@@ -1,0 +1,67 @@
+/*  This style block is for Products Section  */
+.gLrxoc {
+    width: 80%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(33, 33, 33);
+}
+.products_div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    }
+
+    .products_ul {
+        position: relative;
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-rows: 100%;
+        column-gap: 20px;
+        text-align: initial;
+        margin: 0px auto -150px;
+        padding: 0px 0px 150px;
+        height: auto;
+        white-space: nowrap;
+        overflow: scroll hidden;
+        width: 80%;
+        max-width: 1140px;
+        grid-auto-columns: calc(33.3333% - 13.3333px);
+    }
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+    .products_header {
+        width: 80%;
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: rgb(33, 33, 33);
+    }
+    .products_list {
+        position: relative;
+        list-style: none;
+        height: 100%;
+    }
+    .list_item_div {
+        display: grid;
+        position: relative;
+        color: rgb(33, 33, 33);
+        text-align: center;
+    }
+    .list_item_div figure {
+        display: block;
+        position: relative;
+        margin: 0px;
+        padding: 0px 0px 10px;
+        overflow: hidden;
+    }
+
+    /* End of products section style */
