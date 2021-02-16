@@ -28,9 +28,9 @@ figure {
 
     .products_ul {
        position: relative; 
-        display: grid; 
+        /*display: grid; */
         grid-auto-flow: column;
-       grid-template-rows: 100%;
+       grid-template-rows: 10%;
         column-gap: 20px;  
         text-align: initial;  
          padding: 0px 0px 150px;     
@@ -189,3 +189,34 @@ figure {
         background-repeat: no-repeat;
         background-position: center;
     }
+    .nav-cont {
+        display: block;
+    width: 85%;
+    height: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 7px;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    }
+    .nav-bar {
+        position: relative;
+        float: right;
+    }
+    nav-link{
+
+    height: 100%;
+    -webkit-transition: color 300ms ease;
+    transition: color 300ms ease;
+    font-family: Brownstd, sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+   
